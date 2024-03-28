@@ -1,6 +1,16 @@
-<?php
-#Estructura condicional If
 
-if(9>=8):
-    echo "Expresion Verdadera";
-endif;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Estructura condicional simple-->
+    <?php if(9>=8):?>
+    <h1>Expresion Verdadera</h1>
+    <?php endif;?>
+
+</body>
+</html>
